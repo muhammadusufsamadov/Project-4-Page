@@ -5,28 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
 </head>
-
-<body>
+<body class="bg-[rgba(3,3,3,1)] text-white">
     <nav>
-        <header>
-            <div>
-                <img src="/calogo1 1.png" alt="">
+        <header class="flex justify-between lg:px-[50px] py-[10px]">
+            <div class="flex items-center">
+                <img class="w-[45px] h-[45px]" src="/calogo1 1.png" alt="">
                 <div>
-                    <p>Catalyst <br>
+                    <p class="font-[700] text-[18px]">Catalyst <br>
                        Analytics</p>
                 </div>
             </div>
-            <div>
-                <p>Home</p>
-                <p>Services</p>
-                <p>Careers</p>
+            <div class="lg:flex hidden gap-[30px] text-[rgba(255,255,255,1)]"> 
+                <a href=""><p>Home</p></a>
+                <a href=""><p>Services</p></a>
+                <a href=""><p>Careers</p></a>
             </div>
-            <div>
-                <button>Contact Us</button>
+            <div >
+                <button class="bg-[rgba(10,132,255,1)] px-[20px] py-[6px] rounded-[13px]">Contact Us</button>
             </div>
         </header>
     </nav>
+    <section class="flex items-center justify-center flex-col lg:flex-row lg:absolute lg:top-[1px] lg:left-40 ">
+        <div>
+
+            <p class="text-[45px] font-[700]">Transforming Data <br> into <span class="bg-[rgba(10,132,255,1)] px-[10px] rounded-[13px]">Decisions</span>  </p>
+            <p class="text-[rgba(255,255,255,0.8)] mt-[20px]">Leverage the power of machine learning and AI to unlock <br> insights and drive business growth</p>
+            <button class="mt-[20px] bg-[rgba(10,132,255,1)] px-[20px] py-[6px] rounded-[13px]">Book a Meeting</button>
+            <div class="flex items-center gap-[10px] mt-[25px]">
+                <img class="w-[60px] h-[25px]" src="/Group 20.png" alt="">
+                <p class="text-[rgba(255,255,255,0.8)]">Over <span class="text-white">100+</span>  clients have worked with us</p>
+            </div>
+        </div>
+        <div>
+            <img class="w-[660px] h-[690px] lg:block hidden" src="/robot area.png" alt="">
+        </div>
+    </section>
+    <section class="mt-[500px]">
+        <div class="flex gap-[100px]">
+            <img class="w-[110px] h-[47px]" src="/Logo (3).png" alt="">
+            <img class="w-[160px] h-[52px]" src="/Logo (4).png" alt="">
+            <img class="w-[100px] h-[47px]" src="/Logo (5).png" alt="">
+            <img class="w-[120px] h-[47px]" src="/Logo (6).png" alt="">
+            <img class="w-[120px] h-[47px]" src="/Logo (7).png" alt="">
+            <img class="w-[145px] h-[47px]" src="/Logo (8).png" alt="">
+           
+        </div>
+    </section>
+
 </body>
 
 </html>
